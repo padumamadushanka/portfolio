@@ -1,38 +1,105 @@
-.App {
+body {
+  background-color: #100e17;
+  font-family: "Ubuntu", sans-serif;
+  color: #c2c2c2;
+}
+h1 {
+  font-size: 56px;
+}
+.welcome-div {
+  padding-top: 200px;
+  position: relative;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
+  position: absolute;
+  min-height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-pic {
+  border-radius: 50%;
+  filter: drop-shadow(2px 4px 6px black);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.name-text {
+  color: #49bd9c;
+}
+.card-div {
+  margin-top: 150px;
+}
+.row {
+  text-align: center;
+}
+.about-row {
+  padding: 30px;
+  margin-top: 150px;
+  background-color: #201c29;
+  border-radius: 10px;
+  color: #7a7a8c;
+  box-shadow: -1rem 0 3rem #000;
+}
+.para {
+  font-size: 26px;
+}
+.name-text-pink {
+  color: #f14ef3;
+}
+.card {
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #17141d;
+  min-width: 300px;
+  min-height: 350px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 0;
+  color: #7a7a8c;
+}
+.card-img-top {
+  height: 575px;
+}
+.btn {
+  padding: 15px;
+  font-size: 25px;
+}
+.card-footer {
+  background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .welcome-div {
+    padding-top: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .main-div {
+    display: none;
+  }
+  .my-img {
+    width: 200px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .about-row {
+    margin-top: 50px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .card-div {
+    margin-top: 50px;
+  }
+  .card-img-top {
+    height: 345px;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 17px;
   }
 }
