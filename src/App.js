@@ -78,12 +78,7 @@ function App() {
         <div className="row">
           <div className="col-md-12">
             <h2>
-              I'm a <span className="name-text-pink">full-stack developer</span>{" "}
-              specialized in{" "}
-              <img
-                src="https://img.icons8.com/color/48/000000/javascript.png"
-                alt="Cardcap"
-              ></img>
+              I'm a <span className="name-text-pink">full-stack developer</span>
             </h2>
           </div>
         </div>
@@ -97,7 +92,7 @@ function App() {
               />
             </h2>
             <p className="para">
-              i am a final year undergraduate in Horizon Campus malabe. I have
+              i recently graduated at horizon campus malabe. I have
               serious passion for full stack development and creating intuitive,
               dynamic user experiences. i have been working with modern
               technology stacks while studying in the university. i would like
@@ -113,14 +108,7 @@ function App() {
               <img className="card-img-top" src={project1} alt="Cardcap" />
               <div className="card-body">
                 <h5 className="card-title">developer community</h5>
-                <a
-                  href="http://64.225.124.177:3000/"
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noopener noreferrer"
-                >
-                  visit demo
-                </a>
+                
               </div>
             </div>
           </div>
@@ -129,14 +117,7 @@ function App() {
               <img className="card-img-top" src={project2} alt="Cardcap" />
               <div className="card-body">
                 <h5 className="card-title">e-commerce Application</h5>
-                <a
-                  href="http://64.225.42.231:3000/"
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noopener noreferrer"
-                >
-                  visit demo
-                </a>
+               
               </div>
             </div>
           </div>
